@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  title = 'my-budget';
+  name = 'Martin';
+  counterValue = 0;
+  increment(){
+    this.counterValue ++;}
 }
+
