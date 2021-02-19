@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class CalcComponent implements OnInit {
-
+valueA: number=0;
+valueB: number=0;
   constructor() { }
+
 
   ngOnInit(): void {
   }
